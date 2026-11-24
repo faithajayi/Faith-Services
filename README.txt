@@ -1,32 +1,29 @@
-FAITH SERVICES WEBSITE - STARTER BUILD
+FAITH SERVICES — CUSTOM WEBSITE PACKAGE
 
-Files:
-- index.html       Home page (includes blog/insights preview)
-- about.html       About Us
-- services.html    Services
-- sectors.html     Sectors, case study templates and tender search
-- contact.html     Contact Us
-- assets/style.css Shared responsive styling
-- assets/site.js  Mobile navigation, tender search and enquiry form behaviour
+CONTENTS
+- index.html: Home
+- about.html: About Us
+- services.html: Services
+- sectors.html: Sectors, Case Studies & Tender Search
+- contact.html: Contact Us
+- assets/style.css: Complete responsive design and branding
+- assets/site.js: Mobile navigation, contact email preparation and tender search
 
-PREVIEW:
-Open index.html in a modern browser. The other pages are linked through the navigation.
+INSTALLATION (cPanel hosting)
+1. Download and extract faith-services-redesigned.zip on your computer.
+2. Sign in to your hosting account and open cPanel.
+3. Open File Manager, then open public_html (or the document root for your domain).
+4. Back up or move the existing website files before replacing anything.
+5. Upload the five HTML files and the complete assets folder into public_html. Do not upload only the HTML files.
+6. Check that assets/style.css and assets/site.js are inside public_html/assets/.
+7. Visit https://yourdomain.co.uk/ and refresh. If the old page remains, clear your browser cache.
 
-PUBLISHING:
-Upload the complete faith-services-website folder contents to your hosting provider's public web root (often public_html or www). Keep the assets folder alongside the HTML files. Connect the domain to the hosting account and enable HTTPS/SSL.
+INSTALLATION (FTP)
+Upload the five HTML files and the assets folder to the domain document root, preserving the folder structure.
 
-IMPORTANT BEFORE LAUNCH:
-1. Confirm the legal business name, registered business address and any company registration details to publish.
-2. Add a Privacy Notice and Cookie Policy appropriate to the site's actual forms, analytics and cookies. Add cookie consent if non-essential cookies/trackers are used.
-3. The contact form currently prepares an email using the visitor's default email application. For reliable form delivery, connect a secure server-side form handler or CRM and add spam protection.
-4. Tender search currently sends keyword searches to the official Find a Tender service. It is not a consolidated live tender feed. A true live feed needs a suitable procurement API/data supplier, access approval, data mapping, refresh schedule and maintenance.
-5. Blog cards are starter editorial previews, not a full CMS. Add reviewed articles and a publishing workflow before launch.
-6. Case studies are illustrative templates. Replace them with verified client work and obtain permission before publishing names, testimonials, contract values or outcomes.
-7. Confirm all service claims, insurance/credentials, professional memberships and regulatory wording before publication. Do not imply guaranteed CQC registration, grants or tender awards.
-8. Add final social links, business address (if desired), logo artwork and favicon.
-
-BRAND:
-Faith Services | Helping UK Businesses Grow, Comply & Win Contracts.
-Email: faithservice24@gmail.com
-Telephone/WhatsApp: +44 7878 988322
-Palette: navy blue and gold.
+IMPORTANT FUNCTIONAL NOTES
+- The contact form prepares an email in the visitor's email application. It does not silently send or store submissions. For direct website delivery, connect a secure form service or server-side endpoint.
+- Tender keyword search opens the official Find a Tender search. It is not a consolidated live feed. A live multi-portal feed needs a suitable procurement data provider/API.
+- The visual design uses local CSS artwork. Google Fonts are optional enhancements; fallback fonts are provided.
+- Add your real privacy and cookie notices before launch. Replace illustrative case-study templates with verified client work and obtain permission before publishing client names or testimonials.
+- CQC applies in England. Separate regulators apply in Wales, Scotland and Northern Ireland.
