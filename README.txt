@@ -1,41 +1,24 @@
-FAITH SERVICES WEBSITE — FRESH GITHUB PAGES PACKAGE
+FAITH SERVICES WEBSITE – GITHUB PAGES UPLOAD
 
-This package contains the complete static website:
-- index.html — Home
-- about.html — About Us
-- services.html — Services
-- sectors.html — Sectors, Case Studies & Tender Search
-- contact.html — Contact Us
-- assets/faith-services-logo.png — exact original logo supplied by the user
-- assets/style.css — shared styling
-- assets/site.js — navigation, enquiry and tender search interactions
-- CNAME — faithservicesuk.co.uk
+This ZIP contains the complete website, including the new Pricing page.
 
-INSTALLATION
-1. Extract this ZIP on your computer.
-2. Open the extracted folder.
-3. Open https://github.com/faithajayi/Faith-Services
-4. Choose Add file > Upload files.
-5. Upload the CONTENTS of this folder to the repository root (not the outer folder).
-6. Commit changes to the main branch.
-7. Keep GitHub Pages configured to deploy from main / (root).
-8. Keep the CNAME file. In Settings > Pages, custom domain should be faithservicesuk.co.uk.
-9. Check DNS records at your domain DNS provider against GitHub Pages' current documentation.
-10. After DNS verification, enable Enforce HTTPS.
+UPLOAD:
+1. Open your GitHub repository: https://github.com/faithajayi/Faith-Services
+2. Open the repository root (main branch).
+3. Upload the CONTENTS of this ZIP, not the ZIP file itself.
+4. Keep index.html, about.html, services.html, pricing.html, sectors.html and contact.html in the repository root.
+5. Keep the assets folder and its contents together.
+6. Commit the changes to the branch used by GitHub Pages.
 
-IMPORTANT FUNCTIONAL NOTES
-- Contact form: uses mailto to prepare an email in the visitor's email app. It does not send silently or store submissions. For reliable web-form delivery, connect a form service or backend.
-- Tender search: opens official Find a Tender with keyword/region terms. It is not a live aggregated tender API.
-- External photographs load from Unsplash and need an internet connection.
-- Case study cards are illustrative descriptions of service types, not claims of specific client wins. Add real client names, testimonials and outcomes only with permission and evidence.
-- CQC is the regulator for relevant regulated activities in England. Wales, Scotland and Northern Ireland have separate regulators.
-- Review every service description and legal/compliance claim before publishing.
+PAGES:
+Home, About Us, Services, Pricing, Sectors & Tenders, Contact Us.
 
+CONTACT:
+faithservice24@gmail.com
++44 7878 988322
+https://faithservicesuk.co.uk/
 
-VISUAL REFRESH — NOVEMBER 2026
-This version includes a brighter premium visual treatment:
-- More visible photography and brighter blue/cyan lighting in the home hero.
-- Larger, stronger homepage headline and improved contrast.
-- Matching full-width photographic banners on all four internal pages, with different images per page.
-- Brighter service cards, sector cards, calls to action and improved spacing.
-- Original user-supplied Faith Services logo retained.
+IMPORTANT:
+- The contact form on this static site uses the existing email-compose behaviour; it is not a server-side form handler.
+- Tender search links direct visitors to official procurement portals; this is not a live aggregated tender feed.
+- Prices are displayed in GBP. VAT is added where applicable. Third-party and statutory fees may be additional.
