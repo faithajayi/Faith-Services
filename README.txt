@@ -30,3 +30,12 @@ IMPORTANT FUNCTIONAL NOTES
 - Case study cards are illustrative descriptions of service types, not claims of specific client wins. Add real client names, testimonials and outcomes only with permission and evidence.
 - CQC is the regulator for relevant regulated activities in England. Wales, Scotland and Northern Ireland have separate regulators.
 - Review every service description and legal/compliance claim before publishing.
+
+
+VISUAL REFRESH — NOVEMBER 2026
+This version includes a brighter premium visual treatment:
+- More visible photography and brighter blue/cyan lighting in the home hero.
+- Larger, stronger homepage headline and improved contrast.
+- Matching full-width photographic banners on all four internal pages, with different images per page.
+- Brighter service cards, sector cards, calls to action and improved spacing.
+- Original user-supplied Faith Services logo retained.
