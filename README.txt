@@ -1,29 +1,32 @@
-FAITH SERVICES — CUSTOM WEBSITE PACKAGE
+FAITH SERVICES WEBSITE — FRESH GITHUB PAGES PACKAGE
 
-CONTENTS
-- index.html: Home
-- about.html: About Us
-- services.html: Services
-- sectors.html: Sectors, Case Studies & Tender Search
-- contact.html: Contact Us
-- assets/style.css: Complete responsive design and branding
-- assets/site.js: Mobile navigation, contact email preparation and tender search
+This package contains the complete static website:
+- index.html — Home
+- about.html — About Us
+- services.html — Services
+- sectors.html — Sectors, Case Studies & Tender Search
+- contact.html — Contact Us
+- assets/faith-services-logo.png — exact original logo supplied by the user
+- assets/style.css — shared styling
+- assets/site.js — navigation, enquiry and tender search interactions
+- CNAME — faithservicesuk.co.uk
 
-INSTALLATION (cPanel hosting)
-1. Download and extract faith-services-redesigned.zip on your computer.
-2. Sign in to your hosting account and open cPanel.
-3. Open File Manager, then open public_html (or the document root for your domain).
-4. Back up or move the existing website files before replacing anything.
-5. Upload the five HTML files and the complete assets folder into public_html. Do not upload only the HTML files.
-6. Check that assets/style.css and assets/site.js are inside public_html/assets/.
-7. Visit https://yourdomain.co.uk/ and refresh. If the old page remains, clear your browser cache.
-
-INSTALLATION (FTP)
-Upload the five HTML files and the assets folder to the domain document root, preserving the folder structure.
+INSTALLATION
+1. Extract this ZIP on your computer.
+2. Open the extracted folder.
+3. Open https://github.com/faithajayi/Faith-Services
+4. Choose Add file > Upload files.
+5. Upload the CONTENTS of this folder to the repository root (not the outer folder).
+6. Commit changes to the main branch.
+7. Keep GitHub Pages configured to deploy from main / (root).
+8. Keep the CNAME file. In Settings > Pages, custom domain should be faithservicesuk.co.uk.
+9. Check DNS records at your domain DNS provider against GitHub Pages' current documentation.
+10. After DNS verification, enable Enforce HTTPS.
 
 IMPORTANT FUNCTIONAL NOTES
-- The contact form prepares an email in the visitor's email application. It does not silently send or store submissions. For direct website delivery, connect a secure form service or server-side endpoint.
-- Tender keyword search opens the official Find a Tender search. It is not a consolidated live feed. A live multi-portal feed needs a suitable procurement data provider/API.
-- The visual design uses local CSS artwork. Google Fonts are optional enhancements; fallback fonts are provided.
-- Add your real privacy and cookie notices before launch. Replace illustrative case-study templates with verified client work and obtain permission before publishing client names or testimonials.
-- CQC applies in England. Separate regulators apply in Wales, Scotland and Northern Ireland.
+- Contact form: uses mailto to prepare an email in the visitor's email app. It does not send silently or store submissions. For reliable web-form delivery, connect a form service or backend.
+- Tender search: opens official Find a Tender with keyword/region terms. It is not a live aggregated tender API.
+- External photographs load from Unsplash and need an internet connection.
+- Case study cards are illustrative descriptions of service types, not claims of specific client wins. Add real client names, testimonials and outcomes only with permission and evidence.
+- CQC is the regulator for relevant regulated activities in England. Wales, Scotland and Northern Ireland have separate regulators.
+- Review every service description and legal/compliance claim before publishing.
